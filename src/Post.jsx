@@ -5,8 +5,8 @@ export function Post(props) {
     return (
         <div>
 
-            <strong> {props.autor}</strong>
-            <p>{props.texto}</p>
+            <strong> {props.author}</strong>
+            <p>{props.content}</p>
         </div>
 
     )
